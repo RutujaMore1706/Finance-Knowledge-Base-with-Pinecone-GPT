@@ -1,6 +1,3 @@
-
-## Assignment 5
-
 ## Problem Statement:
 Development of a Structured Database and Text Extraction System for Finance Professional Development Resources
 
