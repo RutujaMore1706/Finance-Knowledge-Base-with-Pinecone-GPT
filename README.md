@@ -163,11 +163,4 @@ By completing these tasks, we aim to evaluate different approaches for knowledge
 By following these steps, you should be able to run the application locally and interact with it using the provided Streamlit interface to upload PDF files, trigger data processing pipelines, and query Snowflake for results.
 
 
-
-## Team Information and Contribution 
-
-Name           | NUID          |
----------------|---------------|
-Anirudh Joshi  | 002991365     |      
-Nitant Jatale  | 002776669     |      
-Rutuja More    | 00272782      |      
+ 
