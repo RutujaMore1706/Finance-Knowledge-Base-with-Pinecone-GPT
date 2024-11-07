@@ -1,15 +1,17 @@
 ## Problem Statement:
-Development of a Structured Database and Text Extraction System for Finance Professional Development Resources
+The purpose of this project is to develop a structured database and text extraction system that supports finance professionals in accessing and comprehending key resources for their professional development. This system leverages Pinecone and OpenAI APIs to generate knowledge summaries, build a contextual knowledge base, utilize vector databases for efficient question answering, and employ GPT-based summaries to ensure accurate answers
 
 ## Project Goals
-Utilize Pinecone and OpenAI APIs to create knowledge summaries, generate a contextual knowledge base, utilize vector databases for question answering, and employ GPT-based summaries to provide accurate answers.
+  1. Knowledge Summarization: Utilize OpenAI's GPT models to create technical notes summarizing key Learning Outcome Statements (LOS).
+  2. Question-Answering System: Develop a question-answering model using a vector database to retrieve similar questions and provide accurate answers.
+  3. Data Organization and Storage: Employ a structured data storage system using JSON and Pinecone, categorized by topics.
 
 ## Project Tasks
   
-### Step1 Generating Technical Notes from LOS:
+### Step1 Generating Technical Notes from Learning Outcome Statements (LOS):
         
-    1. The script Step1_Summary_LOS.py utilizes OpenAI's GPT to generate technical notes summarizing key Learning Outcome Statements (LOS).
-    2. Furthermore, the script integrates with Pinecone for efficient data storage by chunking each LOS and its corresponding technical note and uploading it to Pinecone for retrieval.
+    1. Summarization Script: Step1_Summary_LOS.py uses OpenAI's GPT model to generate technical notes summarizing each LOS.
+    2. Data Storage: The script chunks each LOS and its associated technical note, then uploads it to Pinecone for efficient storage and retrieval..
 
  ### Step 2: Question Bank Creation and Data Organization
 
